@@ -1,0 +1,42 @@
+# --- Arquivo gerado por Spring Initializr ---
+HELP.md
+
+# --- Build do Maven ---
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# --- IDEs ---
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# --- Docker / Ambiente ---
+.env            # Arquivo real de variáveis de ambiente (NÃO subir)
+*.log           # Logs locais
+docker-data/    # Se você mapear volumes locais
